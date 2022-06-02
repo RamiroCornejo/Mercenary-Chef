@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1ff43ee6b5dbb0a4685e2affef917778
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Myfrida Hollow
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 85e32331d8904d04c87b9b3264a83772, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

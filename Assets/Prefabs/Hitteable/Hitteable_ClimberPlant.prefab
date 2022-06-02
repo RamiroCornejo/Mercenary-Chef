@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8421172579548609662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8421172579548609637}
+  - component: {fileID: 8421172579548609636}
+  - component: {fileID: 8421172579548609659}
+  - component: {fileID: 8421172579548609657}
+  - component: {fileID: 8421172579548609656}
+  - component: {fileID: 8421172579548609663}
+  - component: {fileID: 8421172579548609658}
+  - component: {fileID: 8421172579548609638}
+  m_Layer: 0
+  m_Name: ClimberPlant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8421172579548609637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_LocalRotation: {x: -0, y: 0.45368293, z: -0, w: 0.8911631}
+  m_LocalPosition: {x: -7.417778, y: 0.99999905, z: -3.9644337}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9123504095850717063}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 53.96, z: 0}
+--- !u!65 &8421172579548609636
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.911602, y: 3.7472277, z: 3.9267027}
+  m_Center: {x: 0.03969419, y: 1.9982228, z: -0.035644766}
+--- !u!114 &8421172579548609659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11a49ea7e7545c479c9221978661016, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgReceiver: {fileID: 8421172579548609656}
+  lifeComponent: {fileID: 8421172579548609663}
+  spawner: {fileID: 8421172579548609657}
+  usePositions: 0
+  positionsToSpawn: []
+  InvulnerablilityFeedback:
+    m_PersistentCalls:
+      m_Calls: []
+  HitFeedback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8421172579548609658}
+        m_TargetAssemblyTypeName: ClimberPlantView, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  DeadFeedback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8421172579548609658}
+        m_TargetAssemblyTypeName: ClimberPlantView, Assembly-CSharp
+        m_MethodName: OnDead
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8421172579548609657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467d742e067e095449b30a0575aea213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDrop: 3
+  minDrop: 1
+  models:
+  - probability: 0
+    model: {fileID: 5676311608231174564, guid: d8fa532f34515624c984658d6258d6fb, type: 3}
+  uniqueSpawn: 0
+  hasOneShot: 1
+--- !u!114 &8421172579548609656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6561bafbd9b513344a3345c0f5c62e58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  physical_damage:
+    m_PersistentCalls:
+      m_Calls: []
+  KnockBack:
+    m_PersistentCalls:
+      m_Calls: []
+  effect:
+    m_PersistentCalls:
+      m_Calls: []
+  invulnerabilities: 00000000
+  onlyVulnerableActive: 0
+  onlyVulnerableTo: 0
+  lifecomponent: {fileID: 8421172579548609663}
+--- !u!114 &8421172579548609663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe6c0fdb7faea7d45ba1b8691e1f37ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initial_hp: 1
+  ui_life: {fileID: 0}
+  EV_OnHit:
+    m_PersistentCalls:
+      m_Calls: []
+  EV_OnHeal:
+    m_PersistentCalls:
+      m_Calls: []
+  EV_OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8421172579548609658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29389249897de1346b755e332cd2d0a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmgReceiver: {fileID: 8421172579548609656}
+--- !u!54 &8421172579548609638
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421172579548609662}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!1 &9123504095850717062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9123504095850717063}
+  - component: {fileID: 9123504095850717057}
+  - component: {fileID: 9123504095850717056}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9123504095850717063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123504095850717062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.23, z: 0}
+  m_LocalScale: {x: 0.42381912, y: 3.2110484, z: 3.5516956}
+  m_Children: []
+  m_Father: {fileID: 8421172579548609637}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9123504095850717057
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123504095850717062}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &9123504095850717056
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9123504095850717062}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}

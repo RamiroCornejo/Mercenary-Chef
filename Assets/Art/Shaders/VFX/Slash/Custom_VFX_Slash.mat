@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_VFX_Slash
+  m_Shader: {fileID: 4800000, guid: 7ea7e3714f8f37b4a802e41566879d98, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DetailTexture:
+        m_Texture: {fileID: 2800000, guid: 3e6a6f3dae753514d928a576ded9abbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 52fc7b7142904294180a49a23f410c5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: 9a50693b8c681ab4089757b1a90fc300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sampler:
+        m_Texture: {fileID: 2800000, guid: 07566733c0e3fa147a192b80bc969a0b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 9a50693b8c681ab4089757b1a90fc300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 3e6a6f3dae753514d928a576ded9abbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _Float0: 0.959
+    - _Float1: 5
+    - _Float2: 0
+    - _FlowIntensity: 0.952
+    - _NoiseScale: 6.05
+    - _PosterizeSteps: 25
+    - _Slash: 0
+    - _Transition: 0
+    m_Colors:
+    - _Color0: {r: 2.3058825, g: 2.9960785, b: 2.9803922, a: 1}
+    - _Color1: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HightlightColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
+    - _Speed: {r: 0.21, g: 0, b: 0, a: 0}
+    - _SpeedFlowMap: {r: 1, g: 0, b: 0, a: 0}
+    - _Tilling: {r: 0.2, g: 3, b: 0, a: 0}
+    - _Vector1: {r: 1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

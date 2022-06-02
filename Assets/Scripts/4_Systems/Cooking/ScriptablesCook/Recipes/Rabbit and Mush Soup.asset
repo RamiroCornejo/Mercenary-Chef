@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c3bdc8a0f3f534197984e8688407f7, type: 3}
+  m_Name: Rabbit and Mush Soup
+  m_EditorClassIdentifier: 
+  necesaryIngredients:
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 3
+  - key: {fileID: 11400000, guid: 2cf3c9b3cb5b7fd469aaa974b831d139, type: 2}
+    value: 1
+  recipeName: Rabbit and Mush Soup
+  ingredientsOrder:
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 7
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 7
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 6
+  - key: {fileID: 11400000, guid: 2cf3c9b3cb5b7fd469aaa974b831d139, type: 2}
+    value: 5
+  timeToStart: 14
+  timeToEnd: 2
+  recipeSpeed: 10
+  plateResult: {fileID: 11400000, guid: 7ec93818cbe105340922f5df73dc9550, type: 2}
+  scoreToPerfect: 9
+  scoreToGood: 5
+  notes: 00000000010000000200000003000000
+  baseSound: {fileID: 8300000, guid: 5e8570e1e4eb8b644b37a8c3621871a1, type: 3}

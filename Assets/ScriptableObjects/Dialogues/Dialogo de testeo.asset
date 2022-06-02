@@ -1,0 +1,812 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58470ff17a7480749b1e7dbff19583b8, type: 3}
+  m_Name: Dialogo de testeo
+  m_EditorClassIdentifier: 
+  allNodes:
+  - myRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Que manija que estoy.
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: 7
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0
+  - myRect:
+      serializedVersion: 2
+      x: 401
+      y: 265
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 401
+      y: 265
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Vos tambi\xE9n? yo estoy rotisimo"
+        titleText: "Un wach\xEDn de por ah\xED"
+        mySprite: {fileID: 21300000, guid: ca7ffe8bb6cbd55438aa716e9f12d11a, type: 3}
+        spriteDir: 1
+      connect: 8
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 1
+  - myRect:
+      serializedVersion: 2
+      x: 780
+      y: 256
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 780
+      y: 256
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Olvis pap\xE1, bueno, te dejo porque este es un di\xE1logo de
+          testeo y hay que cortarlo."
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: 5
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 2
+  - myRect:
+      serializedVersion: 2
+      x: 1166
+      y: 215
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1166
+      y: 215
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Uh, bueno. Ni nos vimos entonces.
+        titleText: "Un wach\xEDn de por ah\xED"
+        mySprite: {fileID: 21300000, guid: ca7ffe8bb6cbd55438aa716e9f12d11a, type: 3}
+        spriteDir: 1
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 3
+  - myRect:
+      serializedVersion: 2
+      x: 613
+      y: 268
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 613
+      y: 268
+      width: 250
+      height: 120
+    myName: OtroAction
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 2
+      nodeName: OtroAction
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 2
+    ID: 4
+  - myRect:
+      serializedVersion: 2
+      x: 977
+      y: 252
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 977
+      y: 252
+      width: 250
+      height: 150
+    myName: OtroFunc
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 3
+      connectB: 6
+      selectedOption: 2
+      nodeName: OtroFunc
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 5
+  - myRect:
+      serializedVersion: 2
+      x: 1161
+      y: 286
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1161
+      y: 286
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Uh, te re moriste, bueno, me fui.
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 6
+  - myRect:
+      serializedVersion: 2
+      x: 221
+      y: 264
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 221
+      y: 264
+      width: 250
+      height: 100
+    myName: Delay
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 3.94
+      connect: 1
+    myType: 4
+    ID: 7
+  - myRect:
+      serializedVersion: 2
+      x: 225
+      y: 327
+      width: 300
+      height: 380
+    expandRect:
+      serializedVersion: 2
+      x: 225
+      y: 327
+      width: 300
+      height: 380
+    myName: Answer
+    minimized: 0
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: "Pregunta random, \xBFMantecol o Turr\xF3n?"
+        titleText: ROBERTO
+        mySprite: {fileID: -1935634961944044191, guid: 1a0f5e5cade19b948a3fc3dfa3f537f4, type: 3}
+        spriteDir: 0
+      answerText:
+      - Mantecol
+      - "Turr\xF3n"
+      answerConnection: 0900000010000000
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 1
+    ID: 8
+  - myRect:
+      serializedVersion: 2
+      x: 602
+      y: 405
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 602
+      y: 405
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Respuesta correcta, segu\xED con el testeo."
+        titleText: ROBERTO
+        mySprite: {fileID: -1935634961944044191, guid: 1a0f5e5cade19b948a3fc3dfa3f537f4, type: 3}
+        spriteDir: 0
+      connect: 4
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 9
+  - myRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Que manija que estoy
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: 15
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 10
+  - myRect:
+      serializedVersion: 2
+      x: 780
+      y: 256
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 780
+      y: 256
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Olvis pap\xE1, bueno, te dejo porque este es un di\xE1logo de
+          testeo y hay que cortarlo."
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: 13
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 11
+  - myRect:
+      serializedVersion: 2
+      x: 1166
+      y: 215
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1166
+      y: 215
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Uh, bueno. Ni nos vimos entonces.
+        titleText: "Un wach\xEDn de por ah\xED"
+        mySprite: {fileID: 21300000, guid: ca7ffe8bb6cbd55438aa716e9f12d11a, type: 3}
+        spriteDir: 1
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 12
+  - myRect:
+      serializedVersion: 2
+      x: 977
+      y: 252
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 977
+      y: 252
+      width: 250
+      height: 150
+    myName: OtroFunc
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 12
+      connectB: 14
+      selectedOption: 2
+      nodeName: OtroFunc
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 3
+    ID: 13
+  - myRect:
+      serializedVersion: 2
+      x: 1161
+      y: 286
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 1161
+      y: 286
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Uh, te re moriste, bueno, me fui.
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 14
+  - myRect:
+      serializedVersion: 2
+      x: 221
+      y: 264
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 221
+      y: 264
+      width: 250
+      height: 100
+    myName: Delay
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      connect: 0
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 3.94
+      connect: -1
+    myType: 4
+    ID: 15
+  - myRect:
+      serializedVersion: 2
+      x: 614
+      y: 611
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 614
+      y: 611
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: "Me decepcionas, no pod\xE9s seguir con el di\xE1logo"
+        titleText: ROBERTO
+        mySprite: {fileID: -1935634961944044191, guid: 1a0f5e5cade19b948a3fc3dfa3f537f4, type: 3}
+        spriteDir: 0
+      connect: -1
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 16
+  firstNode:
+    myRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 150
+      height: 50
+    expandRect:
+      serializedVersion: 2
+      x: 48
+      y: 259
+      width: 300
+      height: 300
+    myName: Base Dialogue
+    minimized: 1
+    baseDialogueSD:
+      dialog:
+        mainText: Que manija que estoy.
+        titleText: "Gordito Chupet\xF3n"
+        mySprite: {fileID: 21300000, guid: 2aa64d8ee475b3a4398615adae9a9cef, type: 3}
+        spriteDir: 0
+      connect: 7
+    answerDialogueSD:
+      dialog:
+        mainText: 
+        titleText: 
+        mySprite: {fileID: 0}
+        spriteDir: 0
+      answerText: []
+      answerConnection: 
+    actionSD:
+      ID: 0
+      connect: 0
+      nodeName: 
+    requireSD:
+      ID: 0
+      connectA: 0
+      connectB: 0
+      selectedOption: 0
+      nodeName: 
+    delaySD:
+      delayTime: 0
+      connect: 0
+    myType: 0
+    ID: 0

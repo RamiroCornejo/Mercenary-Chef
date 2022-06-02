@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water 1
+  m_Shader: {fileID: 4800000, guid: 73ca1df3c6c61344cbd5275ad1210b51, type: 3}
+  m_ShaderKeywords: _AFFECTEDBYCLOUDS_ON _MOVEINDIRECTION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CloudsTexture:
+        m_Texture: {fileID: 2800000, guid: 05e20167a58410f4288d8ad595f0c620, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementMap:
+        m_Texture: {fileID: 2800000, guid: a86ee5521eedff648a37bee20fecd437, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTexture:
+        m_Texture: {fileID: 2800000, guid: c1209b845ce87ee42b41b444fc2233c1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 65ab49278b5a4864dbcea77e249865c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseDetailTexture:
+        m_Texture: {fileID: 2800000, guid: 621e2eb3c61948a4287bbda2bfd20ffa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RefractionTexture:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sampler:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: dd2fd2df93418444c8e280f1d34deeb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Voronoi:
+        m_Texture: {fileID: 2800000, guid: 65ab49278b5a4864dbcea77e249865c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AffectedByClouds: 1
+    - _AlphaCutoff: 0.5
+    - _CollisionDistance: 2.09
+    - _CollisionFallOff: 0.17
+    - _DetailNoise: 0.93
+    - _Distance: 1.45
+    - _DotsAmmount: 0.34386775
+    - _DotsInteract: 0.185
+    - _DotsScale: 5.15
+    - _DotsTilling: 20.4
+    - _FallOff: 0.3
+    - _FallOffClouds: 1.82
+    - _FallOffDotsInteract: -3
+    - _Float0: 1.79
+    - _Float1: 0.17
+    - _Float10: 0.088
+    - _Float11: 1.69
+    - _Float2: 60
+    - _Float3: 3.09
+    - _Float4: 0.97
+    - _Float5: 0.2
+    - _Float6: -0.4
+    - _Float7: -2.02
+    - _Float8: -3
+    - _Float9: 19.71
+    - _FlowDotsMask: 0.727
+    - _FlowMapMask: 0.787
+    - _FoamScale: 12.83
+    - _IntensityClouds: 0.89
+    - _IntensityDotsInteract: 19.71
+    - _InteractDotsScale: -2.02
+    - _Metallic: 0
+    - _MoveInDirection: 1
+    - _NoiseScale: 7.25
+    - _NoiseTilling: 0.5
+    - _NormalScale: 0
+    - _OffsetIntensity: 0.5
+    - _Radius: 12.97
+    - _RefractionStrength: 0.14
+    - _Smoothness: 0.55
+    - _TessMax: 25
+    - _TessMin: 0
+    - _TessValue: 16.2
+    - _ToonWave: 0.16
+    - _VertexColor: 0
+    m_Colors:
+    - _CloudsDarkColor1: {r: 0.19530971, g: 0.46696702, b: 0.7264151, a: 0}
+    - _CloudsLightColor1: {r: 0.8784314, g: 1.9764706, b: 5.992157, a: 0}
+    - _Color0: {r: 0, g: 0, b: 0, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color2: {r: 0.4301988, g: 0.4301988, b: 0.4301988, a: 0}
+    - _Dir: {r: 0, g: 1.5, b: 0, a: 0}
+    - _EdgeColor: {r: 0.3118102, g: 0.59143406, b: 0.8584906, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainColor: {r: 0.31603613, g: 0.6658803, b: 1, a: 0}
+    - _NoiseTilling: {r: 0.01, g: 0.19, b: 0, a: 0}
+    - _Pos: {r: -112.2, g: 6.98, b: 187.86, a: 0}
+    - _SpeedDetailNoise: {r: -0.23, g: 0, b: 0, a: 0}
+    - _SpeedDots: {r: -0.25, g: 0, b: 0, a: 0}
+    - _SpeedFoam: {r: 0, g: -0.39, b: 0, a: 0}
+    - _SpeedOffset: {r: 0.09, g: 0, b: 0, a: 0}
+    - _TillingClouds: {r: 0.03, g: 0.03, b: 0, a: 0}
+    - _TillingDots: {r: 0.05, g: 1, b: 0, a: 0}
+    - _TillingFoam: {r: 0.05, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 3, g: 1, b: 0, a: 0}
+    - _Vector1: {r: -0.2, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0.05, g: 1, b: 0, a: 0}
+    - _Vector3: {r: -1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

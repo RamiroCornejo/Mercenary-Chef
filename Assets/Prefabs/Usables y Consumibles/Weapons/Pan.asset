@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b3008e3e7b76740966a700487e637e, type: 3}
+  m_Name: Pan
+  m_EditorClassIdentifier: 
+  name: Pan
+  element_ID: 3
+  max_stack: 1
+  description: Para cocinar, o reventar craneos
+  weight: 5
+  max_quality: 0
+  image: {fileID: 21300000, guid: 92380653ec57aa04ba180eaf04587f86, type: 3}
+  world_model: {fileID: 2879386637665515127, guid: 974643a16d63d514d881c9b82818ee7b, type: 3}
+  equipable_model: {fileID: 3333228675394538933, guid: e019c314eb954494d9c62f717b93531a, type: 3}
+  equiped_item: {fileID: 8692064112185536783, guid: 1c4700884bf690544be8c3d2927d742d, type: 3}

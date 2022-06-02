@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2cee5a93e2d550d4599234557db30cd6
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Myfrida
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 623d50d2e23aa684a8028cd79e2b62fe, type: 3}
+  - {fileID: 12800000, guid: 75f9ff6eb40fb084d90e582fbd4f4e4f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

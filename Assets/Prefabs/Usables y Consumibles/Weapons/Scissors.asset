@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0b3008e3e7b76740966a700487e637e, type: 3}
+  m_Name: Scissors
+  m_EditorClassIdentifier: 
+  name: Scissors
+  element_ID: 2
+  max_stack: 1
+  description: para cortar cosas cortables
+  weight: 2
+  max_quality: 0
+  image: {fileID: 21300000, guid: c821a22cc7635e14bb2fccfd4eb62fb1, type: 3}
+  world_model: {fileID: 2027230696261396586, guid: dd51ecdbe15c7f8428883ab3aece7ccf, type: 3}
+  equipable_model: {fileID: 3333228675394538933, guid: 11a7461f12b0f6d4c857975af8343096, type: 3}
+  equiped_item: {fileID: 5765042476151123216, guid: 2886ec3971b23c94786495d9869df2a2, type: 3}

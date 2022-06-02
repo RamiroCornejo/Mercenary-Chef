@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: SimpleOffset
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=18912\n0;448;1032;371;1755.545;393.7324;1;True;False\nNode;AmplifyShaderEditor.SimpleAddOpNode;3;-719.2916,-122.8147;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;9;-159.7421,-93.16247;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;14;-185.4166,2.187779;Inherit;False;IntensityOffset;1;2;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;7;-1065.302,-63.10234;Inherit;False;Freq;1;3;False;1;0;FLOAT;2;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleTimeNode;4;-1020.292,-26.81471;Inherit;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;16;-842.585,-6.818222;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;15;-173.3998,113.6837;Inherit;False;DirOffset;3;1;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;20;-1063.545,-233.7324;Inherit;False;VertexAxis;1;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;17;-1158.585,43.18178;Inherit;False;Property;_Float0;Float
+    0;1;0;Create;True;0;0;0;False;0;False;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;10;-798.4896,122.6003;Inherit;False;MaskOffSet;9;5;False;1;0;SAMPLER2D;;False;1;SAMPLER2D;0\nNode;AmplifyShaderEditor.TexturePropertyNode;11;-993.4896,124.6003;Inherit;True;Property;_Texture0;Texture
+    0;0;0;Create;True;0;0;0;False;0;False;None;None;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1\nNode;AmplifyShaderEditor.SinOpNode;2;-518,-95.5;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;6;-899.9324,-165.5647;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;13;33.11714,-94.01365;Inherit;False;3;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT3;0,0,0;False;1;FLOAT3;0\nNode;AmplifyShaderEditor.FunctionInput;18;-1004.585,34.18178;Inherit;False;SpeedOffset;1;4;False;1;0;FLOAT;2;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SamplerNode;12;-658.2893,121.1003;Inherit;True;Property;_TextureSample0;Texture
+    Sample 0;1;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.PosVertexDataNode;5;-1317.131,-285.2866;Inherit;False;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.FunctionOutput;0;241.985,-79.63885;Inherit;False;True;-1;OffSet;0;False;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0\nWireConnection;3;0;6;0\nWireConnection;3;1;16;0\nWireConnection;9;0;2;0\nWireConnection;9;1;12;1\nWireConnection;16;0;4;0\nWireConnection;16;1;18;0\nWireConnection;20;0;5;3\nWireConnection;10;0;11;0\nWireConnection;2;0;3;0\nWireConnection;6;0;20;0\nWireConnection;6;1;7;0\nWireConnection;13;0;9;0\nWireConnection;13;1;14;0\nWireConnection;13;2;15;0\nWireConnection;18;0;17;0\nWireConnection;12;0;10;0\nWireConnection;0;0;13;0\nASEEND*/\n//CHKSM=C521A9F64061F4B2A1AFC7946D6F2D98E5C0C201"
+  m_functionName: 
+  m_description: 
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_customEdited: 0
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0

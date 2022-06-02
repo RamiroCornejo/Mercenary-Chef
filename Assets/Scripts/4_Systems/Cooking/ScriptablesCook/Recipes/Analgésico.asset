@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c3bdc8a0f3f534197984e8688407f7, type: 3}
+  m_Name: "Analg\xE9sico"
+  m_EditorClassIdentifier: 
+  necesaryIngredients:
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 2
+  - key: {fileID: 11400000, guid: 36b0653476c7e9a46a2867b0cd9263ae, type: 2}
+    value: 3
+  recipeName: "Analg\xE9sico"
+  ingredientsOrder:
+  - key: {fileID: 11400000, guid: 36b0653476c7e9a46a2867b0cd9263ae, type: 2}
+    value: 3
+  - key: {fileID: 11400000, guid: 36b0653476c7e9a46a2867b0cd9263ae, type: 2}
+    value: 3
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 3
+  - key: {fileID: 11400000, guid: 36b0653476c7e9a46a2867b0cd9263ae, type: 2}
+    value: 3
+  - key: {fileID: 11400000, guid: b5dc7e74bd34ccc4c80a958bbf0a820c, type: 2}
+    value: 3
+  timeToStart: 3
+  timeToEnd: 4
+  recipeSpeed: 13
+  plateResult: {fileID: 11400000, guid: 7ec93818cbe105340922f5df73dc9550, type: 2}
+  scoreToPerfect: 15.59
+  scoreToGood: 13.18
+  notes: 00000000010000000200000003000000
+  baseSound: {fileID: 8300000, guid: 5e8570e1e4eb8b644b37a8c3621871a1, type: 3}

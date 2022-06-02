@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8218879fba3b6a249bd22503eec23531, type: 3}
+  m_Name: PotionDEB_RED
+  m_EditorClassIdentifier: 
+  name: red potion
+  element_ID: 9
+  max_stack: 5
+  description: una pocion verde
+  weight: 1
+  max_quality: 0
+  image: {fileID: -4544699757091418284, guid: 31fedc1968a608e40acbf6ab9d1b2d71, type: 3}
+  world_model: {fileID: 5911903736159808735, guid: aa53a4e66751f0b43855947e90e804c1, type: 3}
+  equipable_model: {fileID: 0}
+  equiped_item: {fileID: -1687874267130713286, guid: 47906058e993a0c4ebb60bb2b2d15b61, type: 3}
+  isConsumible: 1

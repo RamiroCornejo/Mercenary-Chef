@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 2D
+  m_Shader: {fileID: 4800000, guid: aa4728db3ab5de74295453fd7bc06de9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundTexture:
+        m_Texture: {fileID: 2800000, guid: eeede91d8501e9544bdfe0ae1c627277, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BorderNoise:
+        m_Texture: {fileID: 2800000, guid: 954273eaa13e9c74a849033e34125bb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeTexture:
+        m_Texture: {fileID: 2800000, guid: 954273eaa13e9c74a849033e34125bb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTexture:
+        m_Texture: {fileID: 2800000, guid: ce53970b67ecaa248b97bfd5f81086e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 33337bbc911aea5498b27f19c700de4a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex1:
+        m_Texture: {fileID: 2800000, guid: 44efd0011d6a9bc4fb0b3a82753dac4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMask:
+        m_Texture: {fileID: 2800000, guid: 954273eaa13e9c74a849033e34125bb2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PatternTexture:
+        m_Texture: {fileID: 2800000, guid: 919ed6f34c093ec43a66629f160615b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 919ed6f34c093ec43a66629f160615b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaCutoff: 0.5
+    - _AmmountTexture: 20
+    - _BackgroundIntensity: 0.093
+    - _BorderNoiseStrenght: 0.14
+    - _EdgeIntensity: 14.36
+    - _EdgeStrenght: 0.45
+    - _Float0: 1.47
+    - _Float1: 0.63
+    - _Float2: 0.58
+    - _Float3: 1.08
+    - _FlowStrength: 0.978
+    - _GreenIntensity: 15
+    - _Intensity: 0.09
+    - _Intensity1: 0.09
+    - _Length: 0.915
+    - _MaxSize: 1
+    - _MinSize: 0.12
+    - _NoiseIntensity: 13.01
+    - _NoiseScale: 3.68
+    - _Offset: -0.56
+    - _Offset1: 0.276
+    - _Opacity: 1
+    - _Power: 3
+    - _Strenght: 1
+    m_Colors:
+    - _BackgroundColor: {r: 0.55459356, g: 4.237095, b: 0, a: 0}
+    - _BackgroundSpeed: {r: 0.2, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.11011136, g: 0.5960784, b: 0, a: 1}
+    - _BorderColor: {r: 0, g: 0.57547164, b: 0, a: 1}
+    - _BorderSpeedNoise: {r: 0.1, g: 0, b: 0, a: 0}
+    - _Color0: {r: 0, g: 0.57547164, b: 0, a: 1}
+    - _Color01: {r: 0, g: 0.7490196, b: 0, a: 1}
+    - _Color1: {r: 5.55517, g: 3.696604, b: 1.5414867, a: 0}
+    - _Color2: {r: 21.18857, g: 21.18857, b: 21.18857, a: 0}
+    - _EdgeColor: {r: 0.40784314, g: 2.9960785, b: 0, a: 0}
+    - _EdgeSpeedNoise: {r: 0.1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PatternColor: {r: 2.828427, g: 2.828427, b: 2.828427, a: 0}
+    - _SpeedNoise: {r: 0.2, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
